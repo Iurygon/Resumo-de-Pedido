@@ -3,13 +3,33 @@
 
 <head>
   <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'> <!--Define a largura da página com base no disposito do usuário-->
   <title>Resumo de Pedido</title>
   <link rel='icon' sizes='32x32' href='images/favicon-32x32.png'>
-  <link rel='stylesheet' href='Estilo'>
+  <link rel='stylesheet' href='reset.css'
+  <link rel='stylesheet' href='estilos'>
 </head>
 
 <body>
+  <div class='card'>
+    <img class='imagem' src='images/illustration-hero.jpg' alt='Mulher ouvindo música'>
+    <section class='descricao'>
+      <h1>Resumo de Pedido</h1>
+      <p>Agora você pode ouvir a milhares de músicas, audiobooks, e podcasts em quaisquer aparelhos, onde quer que você esteja.</p>
+    </section>
 
+    <section class='pagamento'>
+      <img src='images/icon-music.jpg' alt='Nota musical'>
+      <h2>Plano anual</h2>
+      <p>R$59,99/ano</p>
+      <a>Mudar</a> <!--Aqui deveria ter um link de referência, mas como o projeto não abrange essa parte, a tag está para fazer a diferenciação-->
+    </section>
+
+    <section>
+      <a class='confirme'>Proceguir com pagamento</a> <!--Aqui, temos o mesmo caso-->
+      <a class='cancele'>Cancelar pedido</a>
+    </section>
+  </div>
 </body>
 
 </html>
