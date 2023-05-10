@@ -1,7 +1,8 @@
 body{
-  width: 100%;
+  width: 1440px;
   height: 100%;
   background: url('Images/background.svg') no-repeat;
+  background-size: 100%;
   background-color: #F0F8FF;
   font-family: 'Red Hat Display', sans-serif;
 }
@@ -10,9 +11,10 @@ body{
 .card{
   background-color: #FFFFFF;
   width: 20%;
-  margin: 8% 40%;
+  margin: 8% 45%;
   text-align: center;
   border-radius: 15px;
+
 }
 
 .arte{
@@ -54,8 +56,9 @@ body{
 }
 
 .pagamento p{
-  right: 73px;
-  top: 5px;
+  position: relative;
+  right: 75px;
+  top: 1px;
   color: #808080;
 
 }
